@@ -122,20 +122,33 @@ static int expr()
 		return reg;
 		/* YOUR CODE GOES HERE */
 	case '0':
+		return digit();
 	case '1':
+		return digit();
 	case '2':
+
 	case '3':
+		return digit();
 	case '4':
+		return digit();
 	case '5':
+		return digit();
 	case '6':
+		return digit();
 	case '7':
+		return digit();
 	case '8':
+		return digit();
 	case '9':
 		return digit();
 	case 'a':
+		return variable();
 	case 'b':
+		return variable();
 	case 'c':
+		return variable();
 	case 'd':
+		return variable();
 	case 'e':
 		return variable();
 	case '-':
@@ -180,8 +193,24 @@ static void assign()
 }
 
 static void read()
+
 {
 	/* YOUR CODE GOES HERE */
+	int reg;
+	char ident;
+	if(token!='?'){
+		ERROR("Expected question mark for reading\n");
+		exit(EXIT_FAILURE);
+	}
+	next_token();
+	ident=token;
+	if(!is_identifier(token)){
+		ERROR("Expected identifier\n");
+		exit(EXIT_FAILURE);
+	}
+	next_token();
+	reg = expr();
+	CodeGen(READ, ident, reg, EMPTY_FIELD);
 }
 
 static void print()  /* variables are handled explicitly without recursive call */
@@ -202,6 +231,12 @@ static void print()  /* variables are handled explicitly without recursive call 
 static void stmt()
 {
 	/* YOUR CODE GOES HERE */
+	if(!is_identifier(token) && token!='?' && token!='!'){
+		ERROR("Invalid tokens for stmt");
+		exit(EXIT_FAILURE);
+	}else{
+
+	}
 }
 
 static void morestmts()
