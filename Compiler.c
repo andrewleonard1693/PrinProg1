@@ -98,6 +98,13 @@ static int variable()  /* only called for R-values */
 {
         int reg;
 		/* YOUR CODE GOES HERE */
+		if(!is_identifier(token)){
+			ERROR("Expected identifier\n")
+			exit(EXIT_FAILURE)
+		}
+		reg = next_register();
+		CodeGen(LOADI, reg, token, EMPTY_FIELD);
+		next_token();
         return reg;
 }
 
@@ -125,6 +132,26 @@ static int expr()
 	case '8':
 	case '9':
 		return digit();
+	case 'a':
+	case 'b':
+	case 'c':
+	case 'd':
+	case 'e':
+		return variable();
+	case '-':
+		next_token();
+		left_reg = expr();
+		right_reg = expr();
+		reg = next_register();
+		CodeGen(SUB, reg, left_reg, right_reg);
+		return reg;
+	case '*':
+		next_token();
+		left_reg = expr();
+		right_reg = expr();
+		reg = next_register();
+		CodeGen(MUL, reg, left_reg, right_reg);
+		return reg;
 	default:
 		ERROR("Symbol %c unknown\n", token);
 		exit(EXIT_FAILURE);
@@ -184,7 +211,8 @@ static void morestmts()
 
 static void stmtlist()
 {
-	/* YOUR CODE GOES HERE */
+	stmt();
+	morestmts();
 }
 
 static void program()
