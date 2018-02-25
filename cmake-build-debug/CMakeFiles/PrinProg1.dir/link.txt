@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/PrinProg1.dir/Compiler.c.o CMakeFiles/PrinProg1.dir/InstrUtils.c.o CMakeFiles/PrinProg1.dir/Interpreter.c.o CMakeFiles/PrinProg1.dir/Optimizer.c.o CMakeFiles/PrinProg1.dir/Utils.c.o  -o PrinProg1 
