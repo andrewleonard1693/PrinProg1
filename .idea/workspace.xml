@@ -50,8 +50,8 @@
           <file leaf-file-name="Compiler.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Compiler.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1146">
-                  <caret line="255" column="4" lean-forward="false" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
+                <state relative-caret-position="297">
+                  <caret line="101" column="43" lean-forward="false" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -64,8 +64,8 @@
           <file leaf-file-name="Compiler.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Compiler.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="7690">
-                  <caret line="231" column="1" lean-forward="false" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+                <state relative-caret-position="420">
+                  <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -167,12 +167,12 @@
       <updated>1519191514032</updated>
       <workItem from="1519191515808" duration="629000" />
       <workItem from="1519602513454" duration="24000" />
-      <workItem from="1519602539637" duration="824000" />
+      <workItem from="1519602539637" duration="1174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1477000" />
+    <option name="totallyTimeSpent" value="1827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -274,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Compiler.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="255" column="4" lean-forward="false" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
+        <state relative-caret-position="297">
+          <caret line="101" column="43" lean-forward="false" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
           <folding />
         </state>
       </provider>

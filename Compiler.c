@@ -99,8 +99,8 @@ static int variable()  /* only called for R-values */
         int reg;
 		/* YOUR CODE GOES HERE */
 		if(!is_identifier(token)){
-			ERROR("Expected identifier\n")
-			exit(EXIT_FAILURE)
+			ERROR("Expected identifier\n");
+			exit(EXIT_FAILURE);
 		}
 		reg = next_register();
 		CodeGen(LOADI, reg, token, EMPTY_FIELD);
@@ -238,11 +238,11 @@ static void stmt()
 
 	if(is_identifier(token)){
 		assign();
-	}else if(token =='?'){
-		read();
-	}else{
-		print();
 	}
+	if(token =='?'){
+		read();
+	}
+	print();
 
 }
 
@@ -253,7 +253,8 @@ static void morestmts()
 		ERROR("Invalid token for morestmts");
 		exit(EXIT_FAILURE);
 	}
-	
+
+
 
 }
 
