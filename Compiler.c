@@ -234,14 +234,27 @@ static void stmt()
 	if(!is_identifier(token) && token!='?' && token!='!'){
 		ERROR("Invalid tokens for stmt");
 		exit(EXIT_FAILURE);
-	}else{
-
 	}
+
+	if(is_identifier(token)){
+		assign();
+	}else if(token =='?'){
+		read();
+	}else{
+		print();
+	}
+
 }
 
 static void morestmts()
 {
 	/* YOUR CODE GOES HERE */
+	if(token!=';'){
+		ERROR("Invalid token for morestmts");
+		exit(EXIT_FAILURE);
+	}
+	
+
 }
 
 static void stmtlist()

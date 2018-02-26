@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a148da50-0d85-4b41-96ec-d4eedfb01066" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Compiler.c" afterPath="$PROJECT_DIR$/Compiler.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -51,8 +50,8 @@
           <file leaf-file-name="Compiler.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Compiler.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="153" column="13" lean-forward="true" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+                <state relative-caret-position="1146">
+                  <caret line="255" column="4" lean-forward="false" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -65,7 +64,7 @@
           <file leaf-file-name="Compiler.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Compiler.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="7085">
+                <state relative-caret-position="7690">
                   <caret line="231" column="1" lean-forward="false" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
                   <folding />
                 </state>
@@ -168,12 +167,12 @@
       <updated>1519191514032</updated>
       <workItem from="1519191515808" duration="629000" />
       <workItem from="1519602513454" duration="24000" />
-      <workItem from="1519602539637" duration="552000" />
+      <workItem from="1519602539637" duration="824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1205000" />
+    <option name="totallyTimeSpent" value="1477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -275,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Compiler.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="153" column="13" lean-forward="true" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+        <state relative-caret-position="1146">
+          <caret line="255" column="4" lean-forward="false" selection-start-line="255" selection-start-column="4" selection-end-line="255" selection-end-column="4" />
           <folding />
         </state>
       </provider>
