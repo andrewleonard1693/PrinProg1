@@ -122,33 +122,20 @@ static int expr()
 		return reg;
 		/* YOUR CODE GOES HERE */
 	case '0':
-		return digit();
 	case '1':
-		return digit();
 	case '2':
-
 	case '3':
-		return digit();
 	case '4':
-		return digit();
 	case '5':
-		return digit();
 	case '6':
-		return digit();
 	case '7':
-		return digit();
 	case '8':
-		return digit();
 	case '9':
 		return digit();
 	case 'a':
-		return variable();
 	case 'b':
-		return variable();
 	case 'c':
-		return variable();
 	case 'd':
-		return variable();
 	case 'e':
 		return variable();
 	case '-':
@@ -235,7 +222,6 @@ static void stmt()
 		ERROR("Invalid tokens for stmt");
 		exit(EXIT_FAILURE);
 	}
-
 	if(is_identifier(token)){
 		assign();
 	}
@@ -253,9 +239,8 @@ static void morestmts()
 		ERROR("Invalid token for morestmts");
 		exit(EXIT_FAILURE);
 	}
-
-
-
+	next_token();
+	stmtlist();
 }
 
 static void stmtlist()
@@ -266,12 +251,8 @@ static void stmtlist()
 
 static void program()
 {
-        assign();     /* DUMMY - NEEDS TO BE DELETED */
-        next_token(); /* DUMMY - NEEDS TO BE DELETED */
-        print();      /* DUMMY - NEEDS TO BE DELETED */
-
 	/* YOUR CODE GOES HERE */
-
+	stmtlist();
 	if (token != '.') {
 		ERROR("Program error.  Current input symbol is %c\n", token);
 		exit(EXIT_FAILURE);
