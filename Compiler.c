@@ -97,13 +97,15 @@ static int digit()
 static int variable()  /* only called for R-values */
 {
         int reg;
+        char var;
 		/* YOUR CODE GOES HERE */
 		if(!is_identifier(token)){
 			ERROR("Expected identifier\n");
 			exit(EXIT_FAILURE);
 		}
+		var = token;
 		reg = next_register();
-		CodeGen(LOADI, reg, token, EMPTY_FIELD);
+		CodeGen(LOADI, reg, var, EMPTY_FIELD);
 		next_token();
         return reg;
 }
@@ -183,21 +185,21 @@ static void read()
 
 {
 	/* YOUR CODE GOES HERE */
-	int reg;
+	// int reg;
 	char ident;
 	if(token!='?'){
 		ERROR("Expected question mark for reading\n");
 		exit(EXIT_FAILURE);
 	}
 	next_token();
-	ident=token;
 	if(!is_identifier(token)){
 		ERROR("Expected identifier\n");
 		exit(EXIT_FAILURE);
 	}
+	ident=token;
 	next_token();
-	reg = expr();
-	CodeGen(READ, ident, reg, EMPTY_FIELD);
+	// reg = expr();
+	CodeGen(READ, ident, EMPTY_FIELD, EMPTY_FIELD);
 }
 
 static void print()  /* variables are handled explicitly without recursive call */
@@ -211,7 +213,8 @@ static void print()  /* variables are handled explicitly without recursive call 
 		ERROR("Expected identifier\n");
 		exit(EXIT_FAILURE);
 	}
-	CodeGen(WRITE, token, EMPTY_FIELD, EMPTY_FIELD);
+	char ident = token;
+	CodeGen(WRITE, ident, EMPTY_FIELD, EMPTY_FIELD);
 	next_token();
 }
 
@@ -237,8 +240,12 @@ static void stmt()
 static void morestmts()
 {
 	/* YOUR CODE GOES HERE */
+	if(token=='.'){
+		return;
+	}
 	if(token!=';'){
-		ERROR("Invalid token for morestmts");
+		// ERROR("Invalid token for morestmts");
+		ERROR("Program error. Current input symbol is %c\n", token);
 		exit(EXIT_FAILURE);
 	}
 	next_token();
@@ -256,11 +263,10 @@ static void program()
 	/* YOUR CODE GOES HERE */
 	stmtlist();
 	if (token != '.') {
-		ERROR("Program error.  Current symbol is %c\n", token);
+		ERROR("Program error.  Current input symbol is %c\n", token);
 		exit(EXIT_FAILURE);
 	};
 }
-
 /*************************************************************************/
 /* Utility definitions                                                   */
 /*************************************************************************/
