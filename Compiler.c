@@ -185,7 +185,6 @@ static void read()
 
 {
 	/* YOUR CODE GOES HERE */
-	// int reg;
 	char ident;
 	if(token!='?'){
 		ERROR("Expected question mark for reading\n");
@@ -198,7 +197,6 @@ static void read()
 	}
 	ident=token;
 	next_token();
-	// reg = expr();
 	CodeGen(READ, ident, EMPTY_FIELD, EMPTY_FIELD);
 }
 
