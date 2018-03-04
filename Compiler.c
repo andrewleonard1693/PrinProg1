@@ -174,7 +174,7 @@ static void assign()
 		exit(EXIT_FAILURE);
 	};
 	next_token();
-        reg = expr();
+    reg = expr();
 	
 	CodeGen(STORE, ident, reg, EMPTY_FIELD);
 }
@@ -228,7 +228,9 @@ static void stmt()
 	if(token =='?'){
 		read();
 	}
-	print();
+	if(token=='!'){		
+		print();
+	}
 
 }
 
@@ -254,7 +256,7 @@ static void program()
 	/* YOUR CODE GOES HERE */
 	stmtlist();
 	if (token != '.') {
-		ERROR("Program error.  Current input symbol is %c\n", token);
+		ERROR("Program error.  Current symbol is %c\n", token);
 		exit(EXIT_FAILURE);
 	};
 }
