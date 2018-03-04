@@ -24,6 +24,7 @@ int main()
 		Instruction *ptr = head;
 		while(ptr!=NULL){
 			printf("Instruction critical = %c\n",ptr->critical);
+			ptr=ptr->next;
 		}
 		PrintInstructionList(stdout, head);
 		DestroyInstructionList(head);
