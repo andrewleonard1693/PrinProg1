@@ -21,6 +21,10 @@ int main()
 	}
 	/* YOUR CODE GOES HERE */
 	if (head) {
+		Instruction *ptr = head;
+		while(ptr!=NULL){
+			printf("Instruction critical = %c\n",ptr->critical);
+		}
 		PrintInstructionList(stdout, head);
 		DestroyInstructionList(head);
 	}

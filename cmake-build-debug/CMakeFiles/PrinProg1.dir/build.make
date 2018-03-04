@@ -43,10 +43,10 @@ RM = "/Users/aj/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aj/Developer/PrinProg1
+CMAKE_SOURCE_DIR = /Users/aj/Desktop/PrinProg1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aj/Developer/PrinProg1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aj/Desktop/PrinProg1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PrinProg1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/PrinProg1.dir/flags.make
 
 CMakeFiles/PrinProg1.dir/Compiler.c.o: CMakeFiles/PrinProg1.dir/flags.make
 CMakeFiles/PrinProg1.dir/Compiler.c.o: ../Compiler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PrinProg1.dir/Compiler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Compiler.c.o   -c /Users/aj/Developer/PrinProg1/Compiler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PrinProg1.dir/Compiler.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Compiler.c.o   -c /Users/aj/Desktop/PrinProg1/Compiler.c
 
 CMakeFiles/PrinProg1.dir/Compiler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrinProg1.dir/Compiler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Developer/PrinProg1/Compiler.c > CMakeFiles/PrinProg1.dir/Compiler.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Desktop/PrinProg1/Compiler.c > CMakeFiles/PrinProg1.dir/Compiler.c.i
 
 CMakeFiles/PrinProg1.dir/Compiler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrinProg1.dir/Compiler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Developer/PrinProg1/Compiler.c -o CMakeFiles/PrinProg1.dir/Compiler.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Desktop/PrinProg1/Compiler.c -o CMakeFiles/PrinProg1.dir/Compiler.c.s
 
 CMakeFiles/PrinProg1.dir/Compiler.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/PrinProg1.dir/Compiler.c.o.provides.build: CMakeFiles/PrinProg1.dir/C
 
 CMakeFiles/PrinProg1.dir/InstrUtils.c.o: CMakeFiles/PrinProg1.dir/flags.make
 CMakeFiles/PrinProg1.dir/InstrUtils.c.o: ../InstrUtils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PrinProg1.dir/InstrUtils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/InstrUtils.c.o   -c /Users/aj/Developer/PrinProg1/InstrUtils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PrinProg1.dir/InstrUtils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/InstrUtils.c.o   -c /Users/aj/Desktop/PrinProg1/InstrUtils.c
 
 CMakeFiles/PrinProg1.dir/InstrUtils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrinProg1.dir/InstrUtils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Developer/PrinProg1/InstrUtils.c > CMakeFiles/PrinProg1.dir/InstrUtils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Desktop/PrinProg1/InstrUtils.c > CMakeFiles/PrinProg1.dir/InstrUtils.c.i
 
 CMakeFiles/PrinProg1.dir/InstrUtils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrinProg1.dir/InstrUtils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Developer/PrinProg1/InstrUtils.c -o CMakeFiles/PrinProg1.dir/InstrUtils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Desktop/PrinProg1/InstrUtils.c -o CMakeFiles/PrinProg1.dir/InstrUtils.c.s
 
 CMakeFiles/PrinProg1.dir/InstrUtils.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/PrinProg1.dir/InstrUtils.c.o.provides.build: CMakeFiles/PrinProg1.dir
 
 CMakeFiles/PrinProg1.dir/Interpreter.c.o: CMakeFiles/PrinProg1.dir/flags.make
 CMakeFiles/PrinProg1.dir/Interpreter.c.o: ../Interpreter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PrinProg1.dir/Interpreter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Interpreter.c.o   -c /Users/aj/Developer/PrinProg1/Interpreter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PrinProg1.dir/Interpreter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Interpreter.c.o   -c /Users/aj/Desktop/PrinProg1/Interpreter.c
 
 CMakeFiles/PrinProg1.dir/Interpreter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrinProg1.dir/Interpreter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Developer/PrinProg1/Interpreter.c > CMakeFiles/PrinProg1.dir/Interpreter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Desktop/PrinProg1/Interpreter.c > CMakeFiles/PrinProg1.dir/Interpreter.c.i
 
 CMakeFiles/PrinProg1.dir/Interpreter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrinProg1.dir/Interpreter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Developer/PrinProg1/Interpreter.c -o CMakeFiles/PrinProg1.dir/Interpreter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Desktop/PrinProg1/Interpreter.c -o CMakeFiles/PrinProg1.dir/Interpreter.c.s
 
 CMakeFiles/PrinProg1.dir/Interpreter.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/PrinProg1.dir/Interpreter.c.o.provides.build: CMakeFiles/PrinProg1.di
 
 CMakeFiles/PrinProg1.dir/Optimizer.c.o: CMakeFiles/PrinProg1.dir/flags.make
 CMakeFiles/PrinProg1.dir/Optimizer.c.o: ../Optimizer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PrinProg1.dir/Optimizer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Optimizer.c.o   -c /Users/aj/Developer/PrinProg1/Optimizer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PrinProg1.dir/Optimizer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Optimizer.c.o   -c /Users/aj/Desktop/PrinProg1/Optimizer.c
 
 CMakeFiles/PrinProg1.dir/Optimizer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrinProg1.dir/Optimizer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Developer/PrinProg1/Optimizer.c > CMakeFiles/PrinProg1.dir/Optimizer.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Desktop/PrinProg1/Optimizer.c > CMakeFiles/PrinProg1.dir/Optimizer.c.i
 
 CMakeFiles/PrinProg1.dir/Optimizer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrinProg1.dir/Optimizer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Developer/PrinProg1/Optimizer.c -o CMakeFiles/PrinProg1.dir/Optimizer.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Desktop/PrinProg1/Optimizer.c -o CMakeFiles/PrinProg1.dir/Optimizer.c.s
 
 CMakeFiles/PrinProg1.dir/Optimizer.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/PrinProg1.dir/Optimizer.c.o.provides.build: CMakeFiles/PrinProg1.dir/
 
 CMakeFiles/PrinProg1.dir/Utils.c.o: CMakeFiles/PrinProg1.dir/flags.make
 CMakeFiles/PrinProg1.dir/Utils.c.o: ../Utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PrinProg1.dir/Utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Utils.c.o   -c /Users/aj/Developer/PrinProg1/Utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PrinProg1.dir/Utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PrinProg1.dir/Utils.c.o   -c /Users/aj/Desktop/PrinProg1/Utils.c
 
 CMakeFiles/PrinProg1.dir/Utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrinProg1.dir/Utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Developer/PrinProg1/Utils.c > CMakeFiles/PrinProg1.dir/Utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aj/Desktop/PrinProg1/Utils.c > CMakeFiles/PrinProg1.dir/Utils.c.i
 
 CMakeFiles/PrinProg1.dir/Utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrinProg1.dir/Utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Developer/PrinProg1/Utils.c -o CMakeFiles/PrinProg1.dir/Utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aj/Desktop/PrinProg1/Utils.c -o CMakeFiles/PrinProg1.dir/Utils.c.s
 
 CMakeFiles/PrinProg1.dir/Utils.c.o.requires:
 
@@ -195,7 +195,7 @@ PrinProg1: CMakeFiles/PrinProg1.dir/Optimizer.c.o
 PrinProg1: CMakeFiles/PrinProg1.dir/Utils.c.o
 PrinProg1: CMakeFiles/PrinProg1.dir/build.make
 PrinProg1: CMakeFiles/PrinProg1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable PrinProg1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable PrinProg1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PrinProg1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/PrinProg1.dir/clean:
 .PHONY : CMakeFiles/PrinProg1.dir/clean
 
 CMakeFiles/PrinProg1.dir/depend:
-	cd /Users/aj/Developer/PrinProg1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aj/Developer/PrinProg1 /Users/aj/Developer/PrinProg1 /Users/aj/Developer/PrinProg1/cmake-build-debug /Users/aj/Developer/PrinProg1/cmake-build-debug /Users/aj/Developer/PrinProg1/cmake-build-debug/CMakeFiles/PrinProg1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aj/Desktop/PrinProg1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aj/Desktop/PrinProg1 /Users/aj/Desktop/PrinProg1 /Users/aj/Desktop/PrinProg1/cmake-build-debug /Users/aj/Desktop/PrinProg1/cmake-build-debug /Users/aj/Desktop/PrinProg1/cmake-build-debug/CMakeFiles/PrinProg1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PrinProg1.dir/depend
 

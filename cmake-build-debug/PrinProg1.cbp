@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/aj/Developer/PrinProg1/cmake-build-debug"/>
+				<Option working_dir="/Users/aj/Desktop/PrinProg1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/aj/Developer/PrinProg1/cmake-build-debug"/>
+				<Option working_dir="/Users/aj/Desktop/PrinProg1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/aj/Developer/PrinProg1/cmake-build-debug"/>
+				<Option working_dir="/Users/aj/Desktop/PrinProg1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PrinProg1">
-				<Option output="/Users/aj/Developer/PrinProg1/cmake-build-debug/PrinProg1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aj/Developer/PrinProg1/cmake-build-debug"/>
+				<Option output="/Users/aj/Desktop/PrinProg1/cmake-build-debug/PrinProg1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aj/Desktop/PrinProg1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrinProg1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrinProg1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PrinProg1/fast">
-				<Option output="/Users/aj/Developer/PrinProg1/cmake-build-debug/PrinProg1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aj/Developer/PrinProg1/cmake-build-debug"/>
+				<Option output="/Users/aj/Desktop/PrinProg1/cmake-build-debug/PrinProg1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aj/Desktop/PrinProg1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,71 +75,71 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrinProg1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Developer/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrinProg1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aj/Desktop/PrinProg1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Compiler.c">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Compiler.c">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Instr.h">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Instr.h">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/InstrUtils.c">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/InstrUtils.c">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/InstrUtils.h">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/InstrUtils.h">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Interpreter.c">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Interpreter.c">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Makefile">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Makefile">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Optimizer.c">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Optimizer.c">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Utils.c">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Utils.c">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/Utils.h">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/Utils.h">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/compile.dSYM/Contents/Info.plist">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/compile.dSYM/Contents/Info.plist">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/compile.dSYM/Contents/Resources/DWARF/compile">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/compile.dSYM/Contents/Resources/DWARF/compile">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/compile.sol">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/compile.sol">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/optimize.sol">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/optimize.sol">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/tests/test-dummy">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/tests/test-dummy">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/tests/test0">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/tests/test0">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/tests/test1">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/tests/test1">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/tests/test2">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/tests/test2">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/tests/test3">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/tests/test3">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/tests/test4">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/tests/test4">
 			<Option target="PrinProg1"/>
 		</Unit>
-		<Unit filename="/Users/aj/Developer/PrinProg1/CMakeLists.txt">
+		<Unit filename="/Users/aj/Desktop/PrinProg1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
