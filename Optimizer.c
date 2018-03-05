@@ -69,7 +69,8 @@ int main()
 		//set a pointer to the tail to iterate backwards
 		Instruction *ptr = tail;
 		while(ptr!=NULL){
-			switch(ptr->opcode){
+			OpCode check = ptr->opcode;
+			switch(check){
 				//if the opcode is WRITE then we push field1 into the arrary of criticals
 				case WRITE: //WRITE
 					ptr->critical='y';
