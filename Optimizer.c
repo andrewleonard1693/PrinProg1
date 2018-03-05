@@ -103,7 +103,6 @@ int main()
 				case LOAD:
 					//
 					if(checkCritical(ptr->field1,critical,numInstructions)==1){
-						//the register is in the critical array so we add the number representation of the letter
 						ptr->critical='y';
 						critical[arrayIndex]=(ptr->field2)-200;
 						arrayIndex+=1;
