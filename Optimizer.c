@@ -21,9 +21,9 @@ int findNumberOfInstructions(Instruction *head){
 	}
 	return count;
 }
-int checkCritical(int val, int arr[]);
-int checkCritical(int val, int arr[]) {
-    int len = sizeof(arr)/sizeof(int);
+int checkCritical(int val, int arr[], int numInstr);
+int checkCritical(int val, int arr[],int numInstr) {
+    int len = numInstr;
 	int i =0;
     for(i = 0;i<len;++i){
         if(arr[i]==val){
