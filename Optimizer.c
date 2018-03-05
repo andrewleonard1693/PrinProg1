@@ -37,6 +37,7 @@ Instruction * deleteDeadCode(Instruction *head){
 	while(ptr!=NULL){
 		if(ptr->critical=='n'){
 			ptr->prev->next = ptr->next;
+			ptr->next->prev = ptr->prev;
 			Instruction *temp = ptr;
 			ptr = ptr->next;
 			free(temp);
