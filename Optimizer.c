@@ -84,7 +84,7 @@ int main()
 					ptr->critical='y';
 					break;
 				case STORE: //STORE
-					if(checkCritical((ptr->field1)-200,critical)==1){
+					if(checkCritical((ptr->field1)-200,critical,numInstructions)==1){
 						critical[arrayIndex]=ptr->field2;
 						arrayIndex+=1;
 						ptr->critical='y';
@@ -95,7 +95,7 @@ int main()
 					break;
 				case LOADI:
 				case LOAD:
-					if(checkCritical(ptr->field1,critical)==1){
+					if(checkCritical(ptr->field1,critical,numInstructions)==1){
 						critical[arrayIndex]=ptr->field1;
 						arrayIndex+=1;
 						ptr->critical='y';
@@ -105,7 +105,7 @@ int main()
 				case ADD:
 				case MUL:
 				case SUB:
-					if(checkCritical(ptr->field1,critical)==1){
+					if(checkCritical(ptr->field1,critical,numInstructions)==1){
 						critical[arrayIndex]=ptr->field2;
 						arrayIndex+=1;
 						critical[arrayIndex]=ptr->field3;
