@@ -100,6 +100,7 @@ int main()
 					}else{
 						ptr->critical='n';
 					}
+					break;
 				case ADD:
 				case MUL:
 				case SUB:
@@ -112,6 +113,7 @@ int main()
 					}else{
 						ptr->critical='n';
 					}
+					break;
 			}
 			ptr=ptr->prev;
 		}
