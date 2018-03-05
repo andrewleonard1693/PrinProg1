@@ -65,7 +65,8 @@ int main()
 		//set an index for inserting into an array
 		int arrayIndex = 0;
 		//create an array to represent the critical registers
-		int critical[numInstructions]={0};
+		int critical[numInstructions];
+		memset(critical,0,sizeof(critical));
 		//set a pointer to the tail to iterate backwards
 		Instruction *ptr = tail;
 		while(ptr!=NULL){
