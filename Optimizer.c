@@ -56,7 +56,6 @@ int main()
 	}
 	/* YOUR CODE GOES HERE */
 	if (head) {
-		Instruction *ptr = head;
 		//get tail of instructions
 		Instruction *tail = LastInstruction(head);
 		//get the number of instructions present in the linked list
