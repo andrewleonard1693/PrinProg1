@@ -105,7 +105,7 @@ static int variable()  /* only called for R-values */
 		}
 		var = token;
 		reg = next_register();
-		CodeGen(LOADI, reg, var, EMPTY_FIELD);
+		CodeGen(LOAD, reg, var, EMPTY_FIELD);
 		next_token();
         return reg;
 }
