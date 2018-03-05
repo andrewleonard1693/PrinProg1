@@ -40,6 +40,8 @@ Instruction * deleteDeadCode(Instruction *head){
 			Instruction *temp = ptr;
 			ptr = ptr->next;
 			free(temp);
+		}else{
+			ptr=ptr->next;
 		}
 	}
 	return head;
