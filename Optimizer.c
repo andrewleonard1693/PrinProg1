@@ -67,7 +67,7 @@ int main()
 		int arrayIndex = 0;
 		//create an array to represent the critical registers
 		int critical[numInstructions];
-		memset(critical,-1,sizeof(critical));
+		memset(critical,0,sizeof(critical));
 		//set a pointer to the tail to iterate backwards
 		Instruction *ptr = tail;
 		while(ptr!=NULL){
@@ -96,8 +96,6 @@ int main()
 				case LOADI:
 				case LOAD:
 					if(checkCritical(ptr->field1,critical,numInstructions)==1){
-						critical[arrayIndex]=ptr->field1;
-						arrayIndex+=1;
 						ptr->critical='y';
 					}else{
 						ptr->critical='n';
