@@ -11,6 +11,7 @@
 #include "InstrUtils.h"
 #include "Utils.h"
 
+int findNumberOfInstructions(Instruction *head);
 int findNumberOfInstructions(Instruction *head){
 	int count =0;
 	Instruction *ptr = head;
@@ -21,7 +22,6 @@ int findNumberOfInstructions(Instruction *head){
 	return count;
 }
 int checkCritical(int val, int arr[]);
-
 int checkCritical(int val, int arr[]) {
     int len = sizeof(arr)/sizeof(int);
     for(int i = 0;i<len;++i){
@@ -31,7 +31,18 @@ int checkCritical(int val, int arr[]) {
     }
     return -1;
 }
-
+Instruction * deleteDeadCode(Instruction *head){
+	Instruction *ptr = head;
+	while(ptr!=NULL){
+		if(ptr->critical=='n'){
+			ptr->prev = ptr->next;
+			Instruction *temp = ptr;
+			ptr = ptr->next;
+			free(temp);
+		}
+	}
+	return head;
+}
 
 int main()
 {
@@ -103,7 +114,8 @@ int main()
 		}
 
 		//loop through the linked list and delete all of the nodes that are not critical
-		
+		head = deleteDeadCode(head);
+
 		PrintInstructionList(stdout, head);
 		DestroyInstructionList(head);
 	}
